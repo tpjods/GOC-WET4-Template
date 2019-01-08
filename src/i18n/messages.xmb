@@ -1,0 +1,160 @@
+<!--
+
+This file handles the translation service capability and uses poedit https://poedit.net/
+
+-->
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE messagebundle [
+<!ELEMENT messagebundle (msg)*>
+<!ATTLIST messagebundle class CDATA #IMPLIED>
+
+<!ELEMENT msg (#PCDATA|ph|source)*>
+<!ATTLIST msg id CDATA #IMPLIED>
+<!ATTLIST msg seq CDATA #IMPLIED>
+<!ATTLIST msg name CDATA #IMPLIED>
+<!ATTLIST msg desc CDATA #IMPLIED>
+<!ATTLIST msg meaning CDATA #IMPLIED>
+<!ATTLIST msg obsolete (obsolete) #IMPLIED>
+<!ATTLIST msg xml:space (default|preserve) "default">
+<!ATTLIST msg is_hidden CDATA #IMPLIED>
+
+<!ELEMENT source (#PCDATA)>
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<messagebundle>
+  <msg id="2102825898069375693"><source>app/shared/navigation/navigation.component.html:11</source>Menu</msg>
+  <msg id="2821179408673282599"><source>app/shared/navigation/navigation.component.html:16</source><source>app/shared/navigation/navigation.component.html:62</source><source>app/shared/navigation/navigation.component.html:63</source>Home</msg>
+  <msg id="7975591291164058424"><source>app/shared/navigation/navigation.component.html:25,26</source>Page 1
+        </msg>
+  <msg id="2096243570937876505"><source>app/shared/navigation/navigation.component.html:29,30</source>Page 2
+        </msg>
+  <msg id="3797778920049399855"><source>app/shared/navigation/navigation.component.html:35</source><source>app/shared/navigation/navigation.component.html:87</source>Logout</msg>
+  <msg id="3099835837934970903"><source>app/shared/navigation/navigation.component.html:47</source>Security Observation Report Portal</msg>
+  <msg id="6258263722383385343"><source>app/shared/navigation/navigation.component.html:69,70</source>Page 1
+            </msg>
+  <msg id="6982706047340069438"><source>app/shared/navigation/navigation.component.html:73,74</source>Page 2
+            </msg>
+  <msg id="4611888652783184678"><source>app/shared/navigation/navigation.component.html:77,78</source>Debug
+            </msg>
+  <msg id="2454050363478003966"><source>app/shared/navigation/navigation.component.html:94</source><source>app/security/login/login.component.html:1</source><source>app/security/login/login.component.html:29</source>Login</msg>
+  <msg id="6578397717654172779"><source>app/shared/page-not-found/page-not-found.component.html:1</source>Page Not Found</msg>
+  <msg id="2637040957358356533"><source>app/shared/footer/footer.component.html:11</source>Terms and conditions</msg>
+  <msg id="7166643135846939840"><source>app/shared/footer/footer.component.html:10</source>http://www.google.shtml</msg>
+  <msg id="4229217686275969533"><source>app/shared/footer/footer.component.html:17</source>Transparency</msg>
+  <msg id="5748640255341180380"><source>app/shared/footer/footer.component.html:16</source>www.google.shtml</msg>
+  <msg id="2501489806101473286"><source>app/shared/footer/footer.component.html:26</source>About us</msg>
+  <msg id="4327911278094092947"><source>app/shared/footer/footer.component.html:30</source>Acts, Regulations and Policy</msg>
+  <msg id="6307845823460074290"><source>app/shared/footer/footer.component.html:29</source>www.google.shtml</msg>
+  <msg id="7568407482988182411"><source>app/shared/footer/footer.component.html:34</source>Our Role</msg>
+  <msg id="7217280360170712196"><source>app/shared/footer/footer.component.html:33</source>www.google.shtml</msg>
+  <msg id="9019997716828530671"><source>app/shared/footer/footer.component.html:38</source>Our Priorities</msg>
+  <msg id="557915129825880583"><source>app/shared/footer/footer.component.html:37</source>www.google.shtml</msg>
+  <msg id="9221730911539762110"><source>app/shared/footer/footer.component.html:61</source>Frequently Asked Questions</msg>
+  <msg id="3133780484401073427"><source>app/shared/footer/footer.component.html:60</source>www.google.shtml</msg>
+  <msg id="8936704404804793618"><source>app/shared/footer/footer.component.html:65</source>Videos</msg>
+  <msg id="1114835057428151916"><source>app/shared/footer/footer.component.html:64</source>www.google.shtml</msg>
+  <msg id="5545830002191506526"><source>app/shared/footer/footer.component.html:69</source>News Releases</msg>
+  <msg id="5203979641280169756"><source>app/shared/footer/footer.component.html:68</source>www.google.shtml</msg>
+  <msg id="8525213662266893834"><source>app/shared/footer/footer.component.html:76</source>Contact us</msg>
+  <msg id="8968355020280160964"><source>app/shared/footer/footer.component.html:75</source><source>app/shared/footer/footer.component.html:79</source>www.google.shtml</msg>
+  <msg id="4763337723588457008"><source>app/shared/footer/footer.component.html:80</source>General Inquiries</msg>
+  <msg id="4667454119084137505"><source>app/shared/footer/footer.component.html:84</source>Feedback Form</msg>
+  <msg id="7004343962675145696"><source>app/shared/footer/footer.component.html:83</source>www.google.shtml</msg>
+  <msg id="7476081554189998885"><source>app/shared/footer/footer.component.html:88</source>Media Room</msg>
+  <msg id="9006113203139521222"><source>app/shared/footer/footer.component.html:87</source>www.google.shtml</msg>
+  <msg id="6292663472472461751"><source>app/shared/footer/footer.component.html:94</source>Stay Connected</msg>
+  <msg id="8401085193044135025"><source>app/shared/footer/footer.component.html:98</source>YouTube</msg>
+  <msg id="8239927822099554844"><source>app/shared/footer/footer.component.html:97</source>https://www.youtube.com/user</msg>
+  <msg id="1715373473261069991"><source>app/shared/footer/footer.component.html:102</source>Twitter</msg>
+  <msg id="7026117993845108769"><source>app/shared/footer/footer.component.html:101</source>https://twitter.com/</msg>
+  <msg id="1675576832133836002"><source>app/shared/footer/footer.component.html:106</source>flickr</msg>
+  <msg id="4746244627337404547"><source>app/shared/footer/footer.component.html:105</source>https://www.flickr.com/photos/</msg>
+  <msg id="8790918354594417962"><source>app/shared/footer/footer.component.html:110</source>Facebook</msg>
+  <msg id="3975259080590177303"><source>app/shared/footer/footer.component.html:109</source>https://www.facebook.com/</msg>
+  <msg id="4805280362412625657"><source>app/shared/footer/footer.component.html:5</source><source>app/shared/footer/footer.component.html:119</source>Site Footer</msg>
+  <msg id="2041675390931385838"><source>app/shared/footer/footer.component.html:125</source>Health</msg>
+  <msg id="3737731485930741495"><source>app/shared/footer/footer.component.html:124</source>https://www.canada.ca/en/services/health.html</msg>
+  <msg id="7150322731406802059"><source>app/shared/footer/footer.component.html:129</source>Travel</msg>
+  <msg id="2287781434677161247"><source>app/shared/footer/footer.component.html:128</source>https://travel.gc.ca/</msg>
+  <msg id="167693379354389030"><source>app/shared/footer/footer.component.html:135</source>Service Canada</msg>
+  <msg id="5832756295612320501"><source>app/shared/footer/footer.component.html:133</source>https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html</msg>
+  <msg id="3229595422546554334"><source>app/shared/footer/footer.component.html:139</source>Jobs</msg>
+  <msg id="8942133334092674926"><source>app/shared/footer/footer.component.html:138</source>https://www.jobbank.gc.ca/home</msg>
+  <msg id="8901691048657107782"><source>app/shared/footer/footer.component.html:143</source>Economy</msg>
+  <msg id="1027643547680228279"><source>app/shared/footer/footer.component.html:142</source>http://actionplan.gc.ca/en</msg>
+  <msg id="4565637070850597086"><source>app/shared/header/header.component.html:7</source><source>app/shared/header/header.component.html:8</source>Government of Canada</msg>
+  <msg id="1411850867528020798"><source>app/shared/header/header.component.html:12</source>Canada.ca</msg>
+  <msg id="5577930970368011972"><source>app/shared/header/header.component.html:12</source>https://www.canada.ca/en.html</msg>
+  <msg id="7143579180750436311"><source>app/shared/header/header.component.html:14</source>Services</msg>
+  <msg id="474508468751754424"><source>app/shared/header/header.component.html:14</source>https://www.canada.ca/en/services.html</msg>
+  <msg id="6945686797037328785"><source>app/shared/header/header.component.html:16</source>Departments</msg>
+  <msg id="2552623755615945099"><source>app/shared/header/header.component.html:16</source>https://www.canada.ca/en/government/dept.html</msg>
+  <msg id="4134147244760971282" desc="English/French language label"><source>app/shared/header/header.component.html:18</source>Français</msg>
+  <msg id="5561142040999083264" desc="English/French Language link"><source>app/shared/header/header.component.html:18</source>/fr/</msg>
+  <msg id="3453866648384612832"><source>app/shared/home/home.component.html:1,3</source>
+  Welcome to the Open-source Data Portal
+</msg>
+
+  <msg id="3486679398271885916"><source>app/shared/banner/banner.component.html:13</source><source>app/shared/banner/banner.component.html:14</source>Canada</msg>
+  <msg id="2450546170804221723"><source>app/security/email-verification/email-verification.component.html:3</source>Verification</msg>
+  <msg id="1968307246833667226"><source>app/security/email-verification/email-verification.component.html:5</source>Email verification in progress</msg>
+  <msg id="403319713029723491"><source>app/security/email-verification/email-verification.component.html:8,9</source>Your account has been verified!
+  </msg>
+  <msg id="983908560375217886"><source>app/security/email-verification/email-verification.component.html:12,13</source>Error verifying your account!
+  </msg>
+  <msg id="1753399383719778009"><source>app/security/login/login.component.html:3,5</source>
+  Login using your NRCAN credentials
+</msg>
+  <msg id="2728506946842737360"><source>app/security/login/login.component.html:10,11</source>Login error occurred
+  </msg>
+  <msg id="4327001039034401261"><source>app/security/login/login.component.html:14</source>Enter your username</msg>
+  <msg id="2772023564304193657"><source>app/security/login/login.component.html:19</source><source>app/security/signup/signup.component.html:47</source>Enter your password</msg>
+  <msg id="1267967133679326155"><source>app/security/signup/signup.component.html:1</source>Create Account</msg>
+  <msg id="7290374659252540217"><source>app/security/signup/signup.component.html:4</source>Instructions</msg>
+  <msg id="8741995839344120333"><source>app/security/signup/signup.component.html:6,9</source>
+    Fill out the following pages. You will receive an email at the end with a link to complete the account
+    creation.
+  </msg>
+  <msg id="1875391837100558120"><source>app/security/signup/signup.component.html:10</source>Open the email and click on the hyperlink redeem invitation.</msg>
+  <msg id="1106431394398907993"><source>app/security/signup/signup.component.html:11</source>Enter a password. You will be redirected to the Welcome page.</msg>
+  <msg id="1938913984758672363"><source>app/security/signup/signup.component.html:12</source>Your account creation is completed!</msg>
+  <msg id="1635073239197333335"><source>app/security/signup/signup.component.html:16,19</source>
+  Add custom signup message here
+</msg>
+  <msg id="2321373100011264038"><source>app/security/signup/signup.component.html:23,24</source>You will receive a verification email shortly
+</msg>
+  <msg id="8508068491876678108"><source>app/security/signup/signup.component.html:27,28</source>Signup error occurred
+</msg>
+  <msg id="203827529942340818"><source>app/security/signup/signup.component.html:31</source>Enter your email</msg>
+  <msg id="6419062618641984446"><source>app/security/signup/signup.component.html:36,37</source>Please enter a valid email address
+  </msg>
+  <msg id="1415349724121058821"><source>app/security/signup/signup.component.html:41,42</source>Email is required
+  </msg>
+  <msg id="2011026261346966491"><source>app/security/signup/signup.component.html:56,57</source>Password must contain upper, lower, digit and special
+  </msg>
+  <msg id="5607392255589352099"><source>app/security/signup/signup.component.html:61,62</source>Password is required
+  </msg>
+  <msg id="7941159538449463077"><source>app/security/signup/signup.component.html:67</source>Re-enter your password</msg>
+  <msg id="3658565349564341824"><source>app/security/signup/signup.component.html:76,77</source>Password does not match
+  </msg>
+  <msg id="1939768052308461548"><source>app/security/signup/signup.component.html:83,84</source>Next
+  </msg>
+  <msg id="4013058784894700859"><source>app/security/signup-verification/signup-verification.component.html:1</source>Email Verification Sent</msg>
+  <msg id="7302465709748770910"><source>app/security/signup-verification/signup-verification.component.html:3,6</source>
+  A verification email was just sent to <ph name="INTERPOLATION"><ex>{{&apos;*EMAIL*&apos;}}</ex></ph>, please go to this email account and follow the instructions
+  in the email we&apos;ve sent.
+</msg>
+  <msg id="6247316343529012048"><source>app/security/signup-verification/signup-verification.component.html:8,10</source>
+  Your account will be considered inactive until you verify your email.
+</msg>
+  <msg id="2723780014471073049"><source>app/form/-yes-no/-yes-no.component.html:7,8</source>Yes
+    </msg>
+  <msg id="4475723102028531948"><source>app/form/-yes-no/-yes-no.component.html:11,12</source>No
+    </msg>
+</messagebundle>

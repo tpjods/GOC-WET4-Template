@@ -1,0 +1,65 @@
+.sidenav-container {
+  height: 100%;
+  background-color: white;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar {
+  padding: 0 14px;
+}
+
+.mat-toolbar-icon {
+  padding: 0 14px;
+}
+
+.mat-toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  height: 50px;
+}
+
+.content {
+  background-image: url("/assets/img/header-bg.png");
+  background-position-x: center;
+  background-position-y: 35px; /* Offset Header min-height */
+  background-repeat: repeat-x;
+
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+
+  -ms-flex-negative: 0; /* https://stackoverflow.com/questions/43024415/how-to-fix-flex-column-height-bug-in-ie*/
+}
+
+main.router-content {
+  background-color: white;
+  padding: 0 20px 10px 20px;
+
+  border-left: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+
+  flex-basis: auto; /* default value */
+  flex-grow: 1;
+
+  -ms-flex-negative: 0;
+}
+
+nav.menu {
+  border-bottom: 3px solid rgb(204, 204, 204);
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+nav.menu button {
+  font-size: 15px;
+}

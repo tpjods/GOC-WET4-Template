@@ -1,0 +1,96 @@
+/*
+ * Material styles to make it behave correctly, only add material overrides here
+ */
+
+/** TODO HACK
+ * https://stackoverflow.com/questions/46933953/angular-material-stepper-disable-header-navigation
+ *
+.mat-horizontal-stepper-header {
+  pointer-events: none !important;
+}
+*/
+.mat-step-header {
+  margin: 0 auto !important;
+}
+
+/** https://stackoverflow.com/questions/51279548/angular-material-badge-on-mat-button-group-css-goes-wrong */
+.mat-badge-content {
+  z-index: 1;
+}
+
+/* styles copied from mat-datepicker-toggle */
+mat-form-field mat-icon {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 16px !important;
+}
+
+@media (min-width: 768px) {
+  mat-dialog-content {
+    min-width: 550px;
+  }
+}
+
+mat-dialog-content {
+  max-width: 850px;
+}
+
+mat-dialog-content {
+  padding-bottom: 0.67em !important;
+}
+
+/** TODO IE 11 fixes */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  /** IE 11 fixes */
+  .mat-select-panel {
+    min-width: inherit !important;
+  }
+
+  .cdk-overlay-pane {
+    display: block;
+  }
+}
+
+.mat-horizontal-stepper-header {
+  height: 20px !important;
+  width: 20px !important;
+  padding: 20px !important;
+  margin: 20px 0;
+}
+
+.mat-horizontal-content-container {
+  padding: 10px !important;
+}
+
+.mat-horizontal-content-container h1 {
+  margin-top: 0 !important;
+}
+
+.mat-checkbox-layout {
+  white-space: normal !important;
+}
+
+mat-radio-group {
+  margin: 0.67em 0;
+}
+
+.mat-checkbox .mat-checkbox-layout,
+.mat-radio-button {
+  margin: 5px;
+}
+
+.mat-radio-field {
+  border-top: 0.84375em solid transparent; /* mat-form-field-infix */
+  padding-bottom: 1.25em; /* mat-form-field-wrapper */
+}
+
+/** todo kin of hacky */
+.owl-dt-control-content, .owl-dt-calendar-cell-selected {
+  color: rgb(38, 99, 141);
+}
+
+/** todo kin of hacky */
+.owl-dt-calendar-cell-selected {
+  background-color: rgb(38, 99, 141) !important;
+}

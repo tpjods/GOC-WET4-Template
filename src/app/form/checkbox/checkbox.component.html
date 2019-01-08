@@ -1,0 +1,17 @@
+<!-- 
+    Author : Ricardo Saracino (Correctional Services Canada IMS - https://www.linkedin.com/in/ricardosaracino/
+
+    Purpose : Component for checkbox
+
+    Date : Some time in 2018
+
+    Description :
+
+-->
+
+
+<div class="-checkbox-field" *ngIf="FormControl">
+  <mat-checkbox color="primary" [value]="true" [ngClass]="displayFieldCss()"
+                [formControl]="FormControl">{{Label}}
+  </mat-checkbox>
+</div>

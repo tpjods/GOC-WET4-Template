@@ -1,0 +1,64 @@
+/*
+ * Generic element styles
+ */
+
+*,
+::before,
+::after {
+  margin: 0;
+}
+
+html, body {
+  height: 100%; /* breaks scrolltotop  without it you can scroll with menu open and fuck everything up*/
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+  color: #295376;
+}
+
+p, ul, pre {
+  line-height: 1.5em;
+  margin-bottom: 11.5px;
+  font-weight: lighter;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0.67em 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.125em;
+}
+
+h6 {
+  font-size: 1em;
+}

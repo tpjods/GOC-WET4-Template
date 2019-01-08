@@ -1,0 +1,31 @@
+<h1 i18n>Login</h1>
+
+<h3 i18n>
+  Login using your NRCAN credentials
+</h3>
+
+<form [formGroup]="form">
+
+  <div *ngIf="success === false" class="mat-error form-field-margin"
+       i18n>Login error occurred
+  </div>
+
+  <mat-form-field>
+    <input matInput required i18n-placeholder placeholder="Enter your username"
+           [formControl]="form.get('username')">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput required i18n-placeholder placeholder="Enter your password"
+           [type]="hidePassword ? 'password' : 'text'"
+           [formControl]="form.get('password')">
+
+    <mat-icon matSuffix (click)="hidePassword = !hidePassword">
+      {{hidePassword ? 'visibility_off' : 'visibility'}}
+    </mat-icon>
+  </mat-form-field>
+
+  <div class="form-field-margin">
+    <button mat-flat-button color="primary" (click)="login()" [disabled]="sending" i18n>Login</button>
+  </div>
+</form>

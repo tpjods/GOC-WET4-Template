@@ -1,0 +1,48 @@
+/*
+ * App specific styles, these will may or may not be reusable across products
+ */
+
+mat-sidenav-content {
+  overflow-y: scroll !important;
+}
+
+mat-form-field {
+  display: block !important;
+  max-width: 500px !important;
+}
+
+textarea.mat-input-element {
+  overflow-y: hidden !important;
+}
+
+.button-group > button {
+  margin-right: 15px !important;
+  margin-left: 0 !important;
+}
+
+.button-group > a {
+  margin-right: 15px !important;
+  margin-left: 0 !important;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+a {
+  font-weight: 400;
+  cursor: pointer;
+  color: rgb(41, 83, 118);
+  text-decoration: rgb(41, 83, 118) underline;
+}
+
+/** color from mat-stroked-button  */
+.button-group a {
+  color: rgb(38, 99, 141) !important;
+}
+
+.not-found {
+  font-weight: 500;
+  padding-top: 20px;
+}

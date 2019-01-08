@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE translationbundle [
+<!ELEMENT translationbundle (translation)*>
+<!ATTLIST translationbundle lang CDATA #REQUIRED>
+
+<!ELEMENT translation (#PCDATA|ph)*>
+<!ATTLIST translation id CDATA #REQUIRED>
+<!ATTLIST translation desc CDATA #IMPLIED>
+<!ATTLIST translation meaning CDATA #IMPLIED>
+<!ATTLIST translation xml:space (default|preserve) "default">
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<translationbundle lang="en">
+  <translation id="2821179408673282599">Home</translation>
+  <translation id="3099835837934970903">Security Observation Report Portal</translation>
+  <translation id="2933574381435940350">This will remove any existing SOR data</translation>
+  <translation id="4611888652783184678">Debug
+            </translation>
+  <translation id="2454050363478003966">Login</translation>
+  <translation id="6578397717654172779">Page Not Found</translation>
+  <translation id="2637040957358356533">Terms and conditions</translation>
+  <translation id="7166643135846939840">http://www.google.com</translation>
+  <translation id="4229217686275969533">Transparency</translation>
+  <translation id="5748640255341180380">http://www.google.com</translation>
+  <translation id="2501489806101473286">About us</translation>
+  <translation id="4327911278094092947">Acts, Regulations and Policy</translation>
+  <translation id="6307845823460074290">http://http://www.google.com</translation>
+  <translation id="7568407482988182411">Our Role</translation>
+  <translation id="7217280360170712196">http://www.google.com</translation>
+  <translation id="9019997716828530671">Our Priorities</translation>
+  <translation id="557915129825880583">http://www.google.com</translation>
+  <translation id="2224662375658072457">Minister</translation>
+  <translation id="6570321329798998156">http://www.google.com</translation>
+  <translation id="798326991528652312">Commissioner</translation>
+  <translation id="8125035828556217841">http://www.google.com</translation>
+  <translation id="1193342024679711454">History of NRCAN-RNCAN</translation>
+  <translation id="1604703252340422608">http://www.google.com</translation>
+  <translation id="841934696444961534">News</translation>
+  <translation id="3692258698425063480">http://www.google.com</translation>
+  <translation id="9221730911539762110">Frequently Asked Questions</translation>
+  <translation id="3133780484401073427">http://www.google.com</translation>
+  <translation id="8936704404804793618">Videos</translation>
+  <translation id="1114835057428151916">http://www.google.com</translation>
+  <translation id="5545830002191506526">News Releases</translation>
+  <translation id="5203979641280169756">http://www.google.com</translation>
+  <translation id="8525213662266893834">Contact us</translation>
+  <translation id="8968355020280160964">http://www.google.com</translation>
+  <translation id="4763337723588457008">General Inquiries</translation>
+  <translation id="4667454119084137505">Feedback Form</translation>
+  <translation id="7004343962675145696">http://www.google.com</translation>
+  <translation id="7476081554189998885">Media Room</translation>
+  <translation id="9006113203139521222">http://www.google.com</translation>
+  <translation id="6292663472472461751">Stay Connected</translation>
+  <translation id="8401085193044135025">YouTube</translation>
+  <translation id="8239927822099554844">https://www.youtube.com/</translation>
+  <translation id="1715373473261069991">Twitter</translation>
+  <translation id="7026117993845108769">https://twitter.com/</translation>
+  <translation id="1675576832133836002">flickr</translation>
+  <translation id="4746244627337404547">https://www.flickr.com/photos/</translation>
+  <translation id="8790918354594417962">Facebook</translation>
+  <translation id="3975259080590177303">https://www.facebook.com/</translation>
+  <translation id="4805280362412625657">Site Footer</translation>
+  <translation id="2041675390931385838">Health</translation>
+  <translation id="3737731485930741495">https://www.canada.ca/en/services/health.html</translation>
+  <translation id="7150322731406802059">Travel</translation>
+  <translation id="2287781434677161247">https://travel.gc.ca/</translation>
+  <translation id="167693379354389030">Service Canada</translation>
+  <translation id="5832756295612320501">https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html</translation>
+  <translation id="3229595422546554334">Jobs</translation>
+  <translation id="8942133334092674926">https://www.jobbank.gc.ca/home</translation>
+  <translation id="8901691048657107782">Economy</translation>
+  <translation id="1027643547680228279">http://actionplan.gc.ca/en</translation>
+  <translation id="4565637070850597086">Government of Canada</translation>
+  <translation id="1411850867528020798">Canada.ca</translation>
+  <translation id="5577930970368011972">https://www.canada.ca/en.html</translation>
+  <translation id="7143579180750436311">Services</translation>
+  <translation id="474508468751754424">https://www.canada.ca/en/services.html</translation>
+  <translation id="6945686797037328785">Departments</translation>
+  <translation id="2552623755615945099">https://www.canada.ca/en/government/dept.html</translation>
+  <translation id="4134147244760971282" desc="English/French language label">Français</translation>
+  <translation id="2450546170804221723">Verification</translation>
+  <translation id="1968307246833667226">Email verification in progress</translation>
+  <translation id="403319713029723491">Your account has been verified!
+  </translation>
+  <translation id="983908560375217886">Error verifying your account!
+  </translation>
+  <translation id="203827529942340818">Enter your email</translation>
+  <translation id="2772023564304193657">Enter your password</translation>
+  <translation id="1267967133679326155">Create Account</translation>
+  <translation id="7290374659252540217">Instructions</translation>
+  <translation id="8741995839344120333">
+    Fill out the following pages. You will receive an email at the end with a link to complete the account
+    creation.
+  </translation>
+  <translation id="1875391837100558120">Open the email and click on the hyperlink redeem invitation.</translation>
+  <translation id="1106431394398907993">Enter a password. You will be redirected to the Welcome page.</translation>
+  <translation id="1938913984758672363">Your account creation is completed!</translation>
+  <translation id="1635073239197333335">
+  Custom sign up message.
+</translation>
+  <translation id="2321373100011264038">You will receive a verification email shortly
+</translation>
+  <translation id="8508068491876678108">Signup error occurred
+</translation>
+  <translation id="6419062618641984446">Please enter a valid email address
+  </translation>
+  <translation id="1415349724121058821">Email is required
+  </translation>
+  <translation id="2011026261346966491">Password must contain upper, lower, digit and special
+  </translation>
+  <translation id="5607392255589352099">Password is required
+  </translation>
+  <translation id="7941159538449463077">Re-enter your password</translation>
+  <translation id="3658565349564341824">Password does not match
+  </translation>
+  <translation id="1939768052308461548">Next
+  </translation>
+  <translation id="4013058784894700859">Email Verification Sent</translation>
+  <translation id="7302465709748770910">
+  A verification email was just sent to <ph name="INTERPOLATION"><ex>{{&apos;*EMAIL*&apos;}}</ex></ph>, please go to this email account and follow the instructions
+  in the email we&apos;ve sent.
+</translation>
+  <translation id="6247316343529012048">
+  Your account will be considered inactive until you verify your email.
+</translation>
+  <translation id="21088891761433209">Observer Information</translation>
+  <translation id="3195964629095801284">Your First Name</translation>
+  <translation id="8006937610129247371">Your Last Name</translation>
+  <translation id="816924011217924817">Your Level</translation>
+  <translation id="1836797260260450391">Your Post</translation>
+  <translation id="8333559062575202573">Date of Incident</translation>
+  <translation id="8790563138425638883">Completing Operational Unit</translation>
+  <translation id="2039614097111665468">Your Region</translation>
+  <translation id="4763987350070159204">Current Institution</translation>
+  <translation id="3885497195825665706">Next</translation>
+  <translation id="2869607581003746122">Health Care Intervention</translation>
+  <translation id="4733606939733137341">Was there a health care consultation?</translation>
+  <translation id="925670051070195745">Name of Health Care Practitioner(s)</translation>
+  <translation id="717909120897135311">Date of Health Care Consultation</translation>
+  <translation id="1077972225144008965">Was this incident related to a medical emergency?</translation>
+  <translation id="9192838673526868020">Was this incident related to mental health concerns?</translation>
+  <translation id="2760101905314540972">Was First Aid or CPR performed?</translation>
+  <translation id="6504776134068806388">During the course of the intervention was there any medical treatment provided?</translation>
+  <translation id="4662312010193490158">Were other health care interventions necessary?</translation>
+  <translation id="4452427314943113135">Previous</translation>
+  <translation id="8825391383842401800">Intervention Strategies</translation>
+  <translation id="1027623290253787844">Intervention Used</translation>
+  <translation id="4072266410634480304">Dynamic Security and Staff Presence?</translation>
+  <translation id="4996995639236033897">Explain</translation>
+  <translation id="4816920559571529712">Communication?</translation>
+  <translation id="4752979673503873407">Isolate and Contain?</translation>
+  <translation id="1341695223390984582">Controlled Non-Intervention?</translation>
+  <translation id="566972207602024089">First Aid/Health Assessment?</translation>
+  <translation id="3270376698879258817">Health Care Intervention?</translation>
+  <translation id="6578939813306521846">Tactical Intervention?</translation>
+  <translation id="4612922136355480917">Interdisciplinary Team and any Person who has Rapport?</translation>
+  <translation id="2905162277779301789">Force Used</translation>
+  <translation id="7925224204622685164">Restraint Equipment?</translation>
+  <translation id="5490525131181003723">Physical Handling?</translation>
+  <translation id="6077390572564847829">Chemical/Inflammatory?</translation>
+  <translation id="4399791721690586354">Impact Munitions?</translation>
+  <translation id="3055910131699182041">Batons or other Intermediary Weapons?</translation>
+  <translation id="3262344400868116089">Firearms?</translation>
+  <translation id="9147614402770431412">Provide detailed description of your observations and actions. If force was used describe the incident in
+    sufficient detail to allow a non-participant to understand the incident as it unfolded and to identify why force was
+    used. Describe the relevant situational factors, intervention strategies chosen, inmate behaviors displayed and
+    response options used as per the Engagement &amp; Intervention Model.</translation>
+  <translation id="5028777105388019087">Details</translation>
+  <translation id="5537512418469178379"> I understand that this report must be completed independently. Any collusion in the preparation of this report will be subject to disciplinary action.</translation>
+  <translation id="6915429060840718325">Communication</translation>
+  <translation id="4909326868609511164">De-escalation</translation>
+  <translation id="7128278080478122367">Did situational factors present opportunity to de-escalate the situation?</translation>
+  <translation id="58493537877265892">What actions were taken to de-escalate the situation?</translation>
+  <translation id="79700006306687512">What partners were used to de-escalate the situation?</translation>
+  <translation id="5716579448455322891">Verbal Intervention</translation>
+  <translation id="75106492612690579">Was verbal intervention used?</translation>
+  <translation id="7780050404510260890">What verbal intervention strategies were attempted?</translation>
+  <translation id="4627147721665634606">What were the results of Verbal Intervention?</translation>
+  <translation id="1570275661855422311">Verbal Orders</translation>
+  <translation id="3945293396571515356">Were verbal orders given?</translation>
+  <translation id="1727892577239030127">What were the results of Verbal Orders?</translation>
+  <translation id="2910313537042903500">Negotiations</translation>
+  <translation id="8401972389580752643">Were trained negotiators used?</translation>
+  <translation id="9168532269934892849">Did the Correctional Manager conduct a debrief?</translation>
+  <translation id="3704339150571642315">Threat and Risk Evaluation</translation>
+  <translation id="2163207213899759091">Considering all relevant situational factors, using the AIM tool describe the threat that required some form of mitigation?</translation>
+  <translation id="3167489408734199602">During the course of the intervention did the level of risk change?</translation>
+  <translation id="5160887135568008741">Was there a corresponding change in the intervention plan?</translation>
+  <translation id="8301195539585823">AIM (Ability, Intent, Means)</translation>
+  <translation id="7477302055578497259">In regards to AIM, did the inmate have the Ability? (Ability: Physical and mental capacity and opportunity to carry out the threat)</translation>
+  <translation id="2841005031365663772">Inmate Level of Compliance and Associated Actions</translation>
+  <translation id="9212301734559368878">Was the inmate cooperative?</translation>
+  <translation id="310978588255642731">Was the inmate verbally resistant?</translation>
+  <translation id="2491966432238755793">Was the inmate passively resistant?</translation>
+  <translation id="252621013885298285">Was the inmate actively resistant?</translation>
+  <translation id="1288941346730944201">Was the inmate assaultive?</translation>
+  <translation id="5001952323609018928">Did the inmate cause grievous bodily harm or death to himself or others?</translation>
+  <translation id="5598699028871988977">Did the inmate escape custody?</translation>
+  <translation id="4518086583344532749">Event Information</translation>
+  <translation id="5626315981416520928">Observer
+      </translation>
+  <translation id="4393123079017671660">Subject of an Incident
+      </translation>
+  <translation id="8680984606774203639">Forwarding/Sharing Information
+      </translation>
+  <translation id="9066786827644506614">Participant in Intervention - Sector Coordinator
+      </translation>
+  <translation id="34074305939761088">Participant in Intervention - Health Monitor
+      </translation>
+  <translation id="442026757901559510">Participant in Intervention - Authorised Intervention Plan
+      </translation>
+  <translation id="7022678051640828948">Participant in Intervention - Health Care
+      </translation>
+  <translation id="8601010025651852154">Participant in Intervention - Specify Role
+      </translation>
+  <translation id="2226411927643338510">Role in Incident</translation>
+  <translation id="1686891955830140672">Intelligence based Information
+      </translation>
+  <translation id="3942861673005901248">General Observation/Statement
+      </translation>
+  <translation id="1549820742413481975">Incident without Use of Force
+      </translation>
+  <translation id="3583822203312105097">Incident with Use Force
+      </translation>
+  <translation id="6363884740684142904">Statement/Observation Type</translation>
+  <translation id="2852406216736540973">Who was the Sector Coordinator?</translation>
+  <translation id="8869503817365784466">Provide synopsis of the incident/observation</translation>
+  <translation id="5404623036863899121">i.e. Burnout light in yard OR fight in yard, etc...</translation>
+  <translation id="6621439947001309998">Was the mental health/state of the inmate(s) and their ability to comprehend direction considered?</translation>
+  <translation id="4361965929711446852">Was the physical state of the inmate(s) considered?</translation>
+  <translation id="152811671924730940">Was Force Used?</translation>
+  <translation id="6024445950184308312">Were you directly involved with the use of force?</translation>
+  <translation id="5619103504356855664">Was there more than one distinct event within the incident that force was applied?</translation>
+  <translation id="7697206360026290021">Please identify them</translation>
+  <translation id="6087174973374447536">Did you authorize a tactical intervention plan?</translation>
+  <translation id="7583137499875429106">What type of force was used?</translation>
+  <translation id="6034913451684662685">Planned
+      </translation>
+  <translation id="8256118445962671961">Unplanned
+      </translation>
+  <translation id="237170151618388304">Both
+      </translation>
+  <translation id="8207983753260432308">For a spontaneous use of force, explain why there was no opportunity to plan the intervention.</translation>
+  <translation id="6600016987809596981">Was the Correctional Manager contacted?</translation>
+  <translation id="3773860423875088943">What interventions partners were considered</translation>
+  <translation id="181643255886458865">Was an intervention plan or SMEAC developed and approved?</translation>
+  <translation id="3640962698583383442">Was there deviation to the plan?</translation>
+  <translation id="2723780014471073049">Yes
+    </translation>
+  <translation id="4475723102028531948">No
+    </translation>
+  <translation id="2102825898069375693">Menu</translation>
+  <translation id="7975591291164058424">Page 1
+        </translation>
+  <translation id="2096243570937876505">Page 2
+        </translation>
+  <translation id="3797778920049399855">Logout</translation>
+  <translation id="6258263722383385343">Page 1
+            </translation>
+  <translation id="6982706047340069438">Page 2
+            </translation>
+  <translation id="5561142040999083264" desc="English/French Language link">/fr/</translation>
+  <translation id="3453866648384612832">
+  Welcome to the Security Observation Report Portal
+</translation>
+  <translation id="9129776752411766622">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et libero eleifend, vulputate risus et,
+  aliquam libero. Donec suscipit lorem lorem, nec elementum turpis rutrum dignissim. Etiam et elementum justo, nec
+  ornare nisl. Donec eget lacus in risus feugiat efficitur.</translation>
+  <translation id="3486679398271885916">Canada</translation>
+  <translation id="1753399383719778009">
+  Login using your NRCAN-RNCAN credentials
+</translation>
+  <translation id="2728506946842737360">Login error occurred
+  </translation>
+  <translation id="4327001039034401261">Enter your username</translation>
+  <translation id="8531685311995034451">Observer Agreement</translation>
+  <translation id="3713046542012933535">Error Occurred
+  </translation>
+  <translation id="8223555322789562234">
+      Finish
+    </translation>
+  <translation id="4226553069416667077">A thorough assessment of all situational factors is essential to the successful implementation of quality
+      intervention strategies. As part of the assessment, staff will evaluate each situation to determine the level of
+      risk relative to the threat, using the AIM (Ability, Intent, Means) risk evaluation tool.</translation>
+  <translation id="2236023198770080584">Submitted Security Observation Report</translation>
+  <translation id="6496161944171260822">Create Security Observation Report</translation>
+  <translation id="7931709775638385958">Page 1
+  </translation>
+</translationbundle>

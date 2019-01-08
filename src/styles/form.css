@@ -1,0 +1,57 @@
+/*
+ * Form element styles
+ */
+
+.radio-field {
+  border-top: 0.7em solid transparent; /* mat-form-field-infix */
+  padding-bottom: 1em; /* mat-form-field-wrapper */
+}
+
+.radio-field > h5 {
+  display: block;
+  font-weight: 500;
+  /*margin: 0.5em 0;*/
+  margin: 0 0 .25em 0; /* override h5 */
+}
+
+.checkbox-field .mat-checkbox-inner-container {
+  margin-top: 3px !important;
+}
+
+.required:after {
+  content: " *";
+}
+
+mat-checkbox.required:after {
+  content: "";
+}
+
+mat-checkbox.required .mat-checkbox-label:after {
+  content: " *";
+}
+
+.mat-error {
+  color: #f44336;
+}
+
+.mat-error .mat-radio-outer-circle {
+  border-color: #f44336 !important;
+}
+
+.mat-error .mat-checkbox-background {
+  border-color: #f44336 !important;
+}
+
+mat-form-field.full-width {
+  display: block;
+  max-width: 100% !important;
+}
+
+mat-radio-group.radio-group {
+  margin: 0.67em 0;
+}
+
+textarea.textarea {
+  line-height: 1.25em !important;
+  overflow-y: hidden !important;
+}

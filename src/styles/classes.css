@@ -1,0 +1,91 @@
+/*
+ * Generic class styles. Avoid in line styles and add them here
+ */
+
+.form-field-margin {
+  padding-bottom: 1.25em;
+}
+
+.form-group-margin {
+  padding-bottom: 1em;
+}
+
+.full-width {
+  display: block;
+  max-width: 100% !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.display-block {
+  display: block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-fix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-strike-through {
+  text-decoration: line-through;
+}
+
+.font-minus-1 {
+  font-size: .9em;
+}
+
+.font-weight-100 {
+  font-weight: 100;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}

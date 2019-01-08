@@ -1,0 +1,16 @@
+<!-- 
+    Author : Ricardo Saracino / Alex Bush (Correctional Services Canada IMS - https://www.linkedin.com/in/ricardosaracino/
+
+    Purpose : Component for text area
+
+    Date : Some time in 2018
+
+    Description :
+
+-->
+
+<mat-form-field class="-full-width" *ngIf="FormControl">
+  <textarea matTextareaAutosize matInput class="-textarea" placeholder="{{Label}}"
+            [required]="Required" [formControl]="FormControl"></textarea>
+  <mat-hint>{{Hint}}</mat-hint>
+</mat-form-field>

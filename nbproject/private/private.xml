@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/form/includes/FieldClass.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/http-interceptors/logging-interceptor.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/http-interceptors/loading-interceptor.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/form/form.module.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/i18n/messages.en.xtb</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/app.component.html</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/form/index.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/form/includes/AddRemoveControl.ts</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/form/textarea/textarea.component.html</file>
+            <file>file:/C:/AppDev/nrcan-angular-compliant-template/src/app/models/CustomizableJSONDataModel.model.ts</file>
+        </group>
+    </open-files>
+</project-private>

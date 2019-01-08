@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE translationbundle [
+<!ELEMENT translationbundle (translation)*>
+<!ATTLIST translationbundle lang CDATA #REQUIRED>
+
+<!ELEMENT translation (#PCDATA|ph)*>
+<!ATTLIST translation id CDATA #REQUIRED>
+<!ATTLIST translation desc CDATA #IMPLIED>
+<!ATTLIST translation meaning CDATA #IMPLIED>
+<!ATTLIST translation xml:space (default|preserve) "default">
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<translationbundle lang="fr">
+  <translation id="2821179408673282599">Accueil</translation>
+  <translation id="4134147244760971282" desc="English/French language label">English</translation>
+  <translation id="6034913451684662685">Prévu</translation>
+  <translation id="8256118445962671961">Imprévu</translation>
+  <translation id="237170151618388304">Tous les deux</translation>
+  <translation id="2723780014471073049">Oui</translation>
+  <translation id="4475723102028531948">Non</translation>
+  <translation id="2102825898069375693">Menu</translation>
+  <translation id="5561142040999083264" desc="English/French Language link">/en/</translation>
+</translationbundle>

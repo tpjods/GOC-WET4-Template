@@ -1,0 +1,84 @@
+<h1 i18n>Create Account</h1>
+
+
+<h4 i18n>Instructions</h4>
+<ul>
+  <li i18n>
+    Fill out the following pages. You will receive an email at the end with a link to complete the account
+    creation.
+  </li>
+  <li i18n>Open the email and click on the hyperlink redeem invitation.</li>
+  <li i18n>Enter a password. You will be redirected to the Welcome page.</li>
+  <li i18n>Your account creation is completed!</li>
+</ul>
+
+
+<p i18n>
+  Add custom sign up message here
+</p>
+
+
+<div *ngIf="signupSuccessful === true" class="form-field-margin"
+     i18n>You will receive a verification email shortly
+</div>
+
+<div *ngIf="signupSuccessful === false" class="mat-error form-field-margin"
+     i18n>Signup error occurred
+</div>
+
+<mat-form-field>
+  <input type="email" matInput i18n-placeholder placeholder="Enter your email"
+         [(ngModel)]="email" [formControl]="signupForm.get('email')" [errorStateMatcher]="matcher">
+
+  <mat-error
+    *ngIf="signupForm.get('email').hasError('email') && !signupForm.get('email').hasError('required')"
+    i18n>Please enter a valid email address
+  </mat-error>
+
+  <mat-error
+    *ngIf="signupForm.get('email').hasError('required')"
+    i18n>Email is required
+  </mat-error>
+</mat-form-field>
+
+
+<mat-form-field>
+  <input matInput i18n-placeholder placeholder="Enter your password" [type]="hidePassword ? 'password' : 'text'"
+         [(ngModel)]="password" [formControl]="signupForm.get('password')" [errorStateMatcher]="matcher">
+
+  <mat-icon matSuffix (click)="hidePassword = !hidePassword">
+    {{hidePassword ? 'visibility_off' : 'visibility'}}
+  </mat-icon>
+
+  <mat-error
+    *ngIf="signupForm.get('password').hasError('pattern') && !signupForm.get('password').hasError('required')"
+    i18n>Password must contain upper, lower, digit and special
+  </mat-error>
+
+  <mat-error
+    *ngIf="signupForm.get('password').hasError('required')"
+    i18n>Password is required
+  </mat-error>
+</mat-form-field>
+
+
+<mat-form-field>
+  <input matInput i18n-placeholder placeholder="Re-enter your password" [type]="hidePassword2 ? 'password' : 'text'"
+         [(ngModel)]="password2" [formControl]="signupForm.get('password2')">
+
+  <mat-icon matSuffix (click)="hidePassword2 = !hidePassword2">
+    {{hidePassword2 ? 'visibility_off' : 'visibility'}}
+  </mat-icon>
+
+  <mat-error
+    *ngIf="signupForm.get('password2').hasError('equalTo')"
+    i18n>Password does not match
+  </mat-error>
+</mat-form-field>
+
+<div class="form-field-margin">
+  <button mat-raised-button color="primary" (click)="signup()"
+          [disabled]="!(signupForm.valid && !sendingSignup)"
+          i18n>Next
+  </button>
+</div>

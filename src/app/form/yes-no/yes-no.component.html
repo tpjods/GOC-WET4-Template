@@ -1,0 +1,25 @@
+<!-- 
+    Author : Ricardo Saracino (Correctional Services Canada IMS - https://www.linkedin.com/in/ricardosaracino/
+
+    Purpose : Component for yes - no radio buttons
+
+    Date : Some time in 2018
+
+    Description :
+
+-->
+
+<div class="-radio-field" [ngClass]="displayFieldCss()" *ngIf="FormControl">
+
+  <h6>{{Label}}</h6>
+
+  <mat-radio-group class="-radio-group" [formControl]="FormControl">
+    <mat-radio-button color="primary" [value]="true"
+                      i18n>Yes
+    </mat-radio-button>
+
+    <mat-radio-button color="primary" [value]="false"
+                      i18n>No
+    </mat-radio-button>
+  </mat-radio-group>
+</div>

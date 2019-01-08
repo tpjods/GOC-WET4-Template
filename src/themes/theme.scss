@@ -1,0 +1,13 @@
+@import '../../node_modules/@angular/material/theming';
+
+@include mat-core();
+
+@import 'gc-ca';
+
+$primary: mat-palette($mat-gc-ca);
+$accent: mat-palette($mat-red, 500, 900, A100);
+$warn: mat-palette($mat-red);
+
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
